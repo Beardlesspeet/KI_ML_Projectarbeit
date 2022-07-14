@@ -1,0 +1,7 @@
+Häufigkeit = df_s1['model'].value_counts().index
+Häufigkeit
+
+df_s1.drop(Häufigkeit<10 , inplace=True)
+
+Ich will die Modelle die seltener als zum Beispiel zehn mal vorkommen löschen
+aber das klappt nicht so ganz, weil er nur zählt, aber nicht wieder zurückschließen kann welche Zeilen das waren. Hast du eine Idee ?
